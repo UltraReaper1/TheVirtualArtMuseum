@@ -1,0 +1,378 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Lora', serif;
+    background-color: #896B60;
+    z-index: 2;
+}
+
+.logo{
+    color:	#D0C7C2;
+    text-transform: uppercase;
+    letter-spacing: 0.313rem;
+    font-size: 1.063rem;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    width: 40rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navlinks li{
+    list-style: none;
+}
+.navlinks a{
+    color:	#D0C7C2;
+    text-decoration: none;
+    letter-spacing: 0.188rem;
+    font-weight: bold;
+}
+
+.navlinks a::after{
+    content: '';
+    position: absolute;
+    
+}
+
+p{
+    font-size: 1.875rem;
+}
+
+::-webkit-scrollbar {
+    width: .5vw;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4c3c3c;
+    border-radius: 100vw;
+}
+
+.burger div{
+    width: 2.188rem;
+    height: 0.188rem;
+    background-color: rgb(109, 39, 39);
+    margin: 0.438rem;
+    border-radius: 1.25rem;
+}
+
+body{
+    background-color: white;
+    z-index: 1;
+}
+
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:768px) {
+    html body{
+        overflow-x: hidden;
+    }
+    
+    .navlinks{
+        position: absolute;
+        right: 0px;
+        height: 80vh;
+        top: 8vh;
+        background-color: #c5aa6a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 29%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in; 
+        justify-content: space-around;
+        z-index: 2;
+        overflow-x: hidden;
+    }
+
+    .burger{
+        display: block;
+        overflow-x: hidden;
+    }
+
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+
+.slideshow{
+    width: 100vw;
+    height: 92vh;
+    position: relative;
+    overflow: hidden;  
+    z-index: 1;
+}
+
+.slideshow-item{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0;
+    animation: cycleImages 31s infinite ;
+}
+
+.slideshow-item img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.slideshow-item:nth-child(1),
+.slideshow-item:nth-child(1) img{
+    animation-delay: 0s;
+}
+
+.slideshow-item:nth-child(2),
+.slideshow-item:nth-child(2) img{
+    animation-delay: 10s;
+}
+
+.slideshow-item:nth-child(3),
+.slideshow-item:nth-child(3) img{
+    animation-delay: 20s;
+}
+
+
+@keyframes cycleImages{
+    25%{
+        opacity: 1;
+
+    }
+    40%{
+        opacity: 0;
+
+    }
+}
+
+@keyframes zoom{
+    100%{
+        transform: scale(1.3);
+    }
+}
+
+.slideshow-item img{
+    justify-self: center;  
+}
+
+
+
+.aboutUsTitle{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+
+
+
+.aboutUsParagraph{
+    font-family: 'Montserrat', sans-serif;
+    color: #4A332D;
+    font-size: 1.375rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+
+.aboutUsParagraph2{
+    font-family: 'Montserrat', sans-serif;
+    color: #4A332D;
+    font-size: 1.375rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.para2{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.aboutUsParagraph3{
+    font-family: 'Montserrat', sans-serif;
+    color: #4A332D;
+    font-size: 1.375rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.para3{
+    margin-bottom: 5em;
+    margin-top: 2em;
+}
+
+
+.slogan img{
+    display: block;
+    display: flex;
+    margin: 0 auto;
+    width: 50em;
+    padding: 5em;
+}
+
+.slogan{
+    height: 430px;
+    overflow:hidden;
+}
+  
+.contactBody{
+    background-image: url(images/try21.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.aboutUsTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+
+.slogan2 img{display: block;
+    display: block;
+    display: flex;
+    margin: 0 auto;
+    width: 50em;
+}
+
+.slogan2{
+    height: 430px;
+    overflow:hidden;
+}
+
+.slogan3{
+    height: 430px;
+    overflow:hidden;
+    margin-bottom: 2.5em;
+    
+}
+
+.slogan3 img{
+    display: block;
+    display: flex;
+    margin: 0 auto;
+    width: 50em;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+                    
+ 
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  .VirtualTourTitle{
+    font-family:  'Open Sans', sans-serif;
+    color: black;
+    font-size: 25px;
+    margin-top: 25px;
+
+  }
+
+  .VirtualTourGuide{
+      font-family:  'Open Sans', sans-serif;
+      color: black;
+      margin-top: 25px;
+      font-size: 15px;
+
+
+  }
+
+  .map{
+      margin-bottom: 2.5em;
+  }
+
+.VirtualTourTitle{
+    color: #362222;
+    font-family: 'Sora', sans-serif;
+    font-size: 30px;
+}
+
+.virtualtourbody{
+    background-image: url(images/Artboard\ 1.png);
+    width: inherit;
+    
+}
+
+.mapIMG{
+    width: 50em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ExhibitA{
+    font-family:  'Open Sans', sans-serif;
+    color: black;
+    font-size: 25px;
+    margin-top: 25px;
+
+}
+
+.VanGoghImages{
+    float: right;
+}
+
+
+.VanGoghLife{
+    font-family: 'Montserrat', sans-serif;
+    color: #4A332D;
+    font-size: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+

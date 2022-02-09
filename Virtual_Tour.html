@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Virtual Art Museum</title>
+</head>
+<body class="virtualtourbody">
+    <nav>
+        <div class="logo">
+            <h1>Virtual Atlanta Art Museum</h1>
+        </div>
+
+        <ul class="navlinks">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html">About</a>
+            </li>
+
+            <li>
+                <a href="Virtual_Tour.html">Virtual Tour</a>
+            </li>
+
+            <li>
+                <a href="Contact.html">Contact Us</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    </nav>
+    <h1 class="VirtualTourTitle">
+        <center>
+        Atlanta Art Museum Virtual Tour
+        </center>
+    </h1>
+    <h2 class="VirtualTourGuide">
+        <center>
+        Click on each exhibit to view the art pieces in it.
+        </center>
+    </h2>
+
+
+<div class="mapIMG"> 
+        <img src="images/map.png" alt="VTMap" usemap="#MuseumMap">
+</div>
+    <map name="MuseumMap">
+        <area shape="circle" coords="246,182,85" alt="ExhibitA" href="ExhibitA.html">
+        <area shape="circle" coords="708,179,85" alt="ExhibitB" href="ExhibitB.html">
+        <area shape="circle" coords="156,476,65" alt="ExhibitC" href="ExhibitC.html">
+        <area shape="circle" coords="480,565,160" alt="ExhibitD" href="ExhibitD.html">
+        <area shape="circle" coords="798,476,65" alt="ExhibitE" href="ExhibitE.html">
+    </map>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
