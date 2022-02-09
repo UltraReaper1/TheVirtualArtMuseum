@@ -343,8 +343,10 @@ input[type=text], select, textarea {
 
 .virtualtourbody{
     background-image: url(images/Artboard\ 1.png);
-    width: inherit;
-    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .mapIMG{
@@ -352,6 +354,7 @@ input[type=text], select, textarea {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .ExhibitA{
