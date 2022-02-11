@@ -1,37 +1,85 @@
-
-input[type=text], select, textarea {
-     /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #896B60; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #896B60;
-    color: #D0C7C2;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #9faf0c;
-  }
-
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    padding: 20px;
-    font-family: 'Open Sans', sans-serif;
-    width: 50%;
-    color: #896B60;
-    justify-content: center;
-    margin: 0 auto;
+body{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
 }
+.container
+{width: 80%;
+margin: 50px auto;}
+.contact-box{
+  background:#202240;
+  display: flex;
+}
+.contact-left{
+  flex-basis: 60%;
+  padding: 40px 60px;
+  color: antiquewhite;
+}
+
+.contact-right{
+  flex-basis: 40%;
+  padding: 40px;
+  background:#D0C7C2;
+}
+
+h1{margin-bottom: 10px}
+
+.container p{margin-bottom: 40px}
+
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-row .input-group{
+  flex-basis: 45%;
+}
+input{
+  width:100%;
+  border:none;
+  border-bottom: 1px solid #D0C7C2;
+  outline: none;
+padding-bottom:5px;
+}
+textarea{width: 100%;
+border:1px solid #ccc;
+padding: 10px;
+box-sizing: border-box;
+}
+label{
+  margin-bottom: 6px;
+  display: block;
+
+}
+button{
+  background: #D0C7C2;
+width: 100px;
+border:none;
+outline:none;
+color:#202240;
+height:35px;
+border-radius: 30px;
+margin-top:20px ;
+box-shadow: 0px 5px 15px 0px rgba(28,0,181, 0.3);
+}
+.contact-right h3{
+  color:#202240;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.contact-left h3{
+  color:#D0C7C2 ;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+tr td:first-child{
+  padding-right: 20px;
+}
+tr td{
+  padding-top: 20px;
+}
+body{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+

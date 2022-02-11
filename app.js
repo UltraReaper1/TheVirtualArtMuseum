@@ -8,3 +8,14 @@ const navSlide = ()=>{
 }
 
 navSlide();
+
+const lightbox = document.createElement('div')
+lightbox.id='lightbox'
+document.body.appendChild(lightbox)
+
+const images = document.querySelector('img')
+images.forEach(Image => {
+    images.addEventListener('click', e =>{
+        lightbox.classList.add('active')
+    })
+})
