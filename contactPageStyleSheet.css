@@ -1,14 +1,25 @@
 body{
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
 }
-.container
-{width: 80%;
-margin: 50px auto;}
+.container{
+width: 80%;
+margin: 50px auto;
+font-family: 'Crete Round', serif;
+}
+
+.container h1{
+  font-size: 40px;
+}
+
+.container p{
+  font-size: 20px
+}
+
 .contact-box{
   background:#202240;
   display: flex;
 }
+
 .contact-left{
   flex-basis: 50%;
   padding: 40px 60px;
@@ -19,6 +30,7 @@ margin: 50px auto;}
   flex-basis: 50%;
   padding: 40px;
   background:#D0C7C2;
+  font-size: 17;
 }
 
 h1{margin-bottom: 10px}
@@ -76,10 +88,6 @@ tr td:first-child{
 }
 tr td{
   padding-top: 20px;
-}
-body{
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 
