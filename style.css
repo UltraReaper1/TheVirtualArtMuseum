@@ -401,6 +401,7 @@ input[type=text], select, textarea {
     color: black;
     font-size: 2rem;
     margin-top: 25px;
+    
 
   }
 
@@ -435,16 +436,16 @@ input[type=text], select, textarea {
 
 .ExhibitA{
     text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  color: black;
-  animation: fadeIn linear 7s;
-  -webkit-animation: fadeIn linear 7s;
-  -moz-animation: fadeIn linear 7s;
-  -o-animation: fadeIn linear 7s;
-  -ms-animation: fadeIn linear 7s;
-  margin-bottom: 25px;
-  margin-top: 25px;
+    font-family: 'Martel', serif;
+    font-size: 20px;
+    color: black;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+    margin-bottom: 25px;
+    margin-top: 25px;
   
 
 }
@@ -452,11 +453,11 @@ input[type=text], select, textarea {
     margin: 50px auto;
     text-align: center;
     margin-bottom: 60px;
-    animation: fadeIn linear 7s;
-    -webkit-animation: fadeIn linear 7s;
-    -moz-animation: fadeIn linear 7s;
-    -o-animation: fadeIn linear 7s;
-    -ms-animation: fadeIn linear 7s;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
 }
 .vanGoghImages img{
     width: 300px;
@@ -465,35 +466,37 @@ input[type=text], select, textarea {
 }
 
 .vanGoghImages img:hover{
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 .VanGoghLife{
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
     color: black;
-    animation: fadeIn linear 7s;
-    -webkit-animation: fadeIn linear 7s;
-    -moz-animation: fadeIn linear 7s;
-    -o-animation: fadeIn linear 7s;
-    -ms-animation: fadeIn linear 7s;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 20px;
 }
 
 .ExhibitB{
     text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  color: black;
-  animation: fadeIn linear 7s;
-  -webkit-animation: fadeIn linear 7s;
-  -moz-animation: fadeIn linear 7s;
-  -o-animation: fadeIn linear 7s;
-  -ms-animation: fadeIn linear 7s;
-  margin-bottom: 25px;
-  margin-top: 25px;
+    font-family: 'Martel', serif;
+    font-size: 20px;
+    color: black;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+    margin-bottom: 25px;
+    margin-top: 25px;
   
 
 }
@@ -501,11 +504,11 @@ input[type=text], select, textarea {
     margin: 50px auto;
     text-align: center;
     margin-bottom: 60px;
-    animation: fadeIn linear 7s;
-    -webkit-animation: fadeIn linear 7s;
-    -moz-animation: fadeIn linear 7s;
-    -o-animation: fadeIn linear 7s;
-    -ms-animation: fadeIn linear 7s;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
 }
 .EuropeanArtImages img{
     width: 300px;
@@ -514,36 +517,41 @@ input[type=text], select, textarea {
 }
 
 .EuropeanArtImages img:hover{
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 .EuropeanArt{
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
     color: black;
-    animation: fadeIn linear 7s;
-    -webkit-animation: fadeIn linear 7s;
-    -moz-animation: fadeIn linear 7s;
-    -o-animation: fadeIn linear 7s;
-    -ms-animation: fadeIn linear 7s;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
     margin-left: 50px;
     margin-right: 50px;
+    background: #D0C7C2;
+    padding:40px;
+    color: #202240
+   
 }
 
 /*Echibit D*/
 .ExhibitD{
     text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  color: black;
-  animation: fadeIn linear 7s;
-  -webkit-animation: fadeIn linear 7s;
-  -moz-animation: fadeIn linear 7s;
-  -o-animation: fadeIn linear 7s;
-  -ms-animation: fadeIn linear 7s;
-  margin-bottom: 25px;
-  margin-top: 25px;
+    font-family: 'Martel', serif;
+    font-size: 20px;
+    color: black;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+    margin-bottom: 25px;
+    margin-top: 25px;
   
 
 }
@@ -551,11 +559,11 @@ input[type=text], select, textarea {
     margin: 50px auto;
     text-align: center;
     margin-bottom: 60px;
-    animation: fadeIn linear 7s;
-    -webkit-animation: fadeIn linear 7s;
-    -moz-animation: fadeIn linear 7s;
-    -o-animation: fadeIn linear 7s;
-    -ms-animation: fadeIn linear 7s;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
 }
 .FamousArtImages img{
     width: 300px;
@@ -563,33 +571,40 @@ input[type=text], select, textarea {
     padding:19px;
 }
 
+.FamousArtImages img:hover{
+    transform: scale(1.5);
+}
+
 .FamousArt{
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
     color: black;
-    animation: fadeIn linear 7s;
-    -webkit-animation: fadeIn linear 7s;
-    -moz-animation: fadeIn linear 7s;
-    -o-animation: fadeIn linear 7s;
-    -ms-animation: fadeIn linear 7s;
+    color: black;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
     margin-left: 50px;
     margin-right: 50px;
 }
 
+
 /*Echibit C*/
 .ExhibitC{
     text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  color: black;
-  animation: fadeIn linear 7s;
-  -webkit-animation: fadeIn linear 7s;
-  -moz-animation: fadeIn linear 7s;
-  -o-animation: fadeIn linear 7s;
-  -ms-animation: fadeIn linear 7s;
-  margin-bottom: 25px;
-  margin-top: 25px;
+    font-family: 'Martel', serif;
+    font-size: 20px;
+    color: black;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+    margin-bottom: 25px;
+    margin-top: 25px;
   
 
 }
@@ -597,11 +612,11 @@ input[type=text], select, textarea {
     margin: 50px auto;
     text-align: center;
     margin-bottom: 60px;
-    animation: fadeIn linear 7s;
-    -webkit-animation: fadeIn linear 7s;
-    -moz-animation: fadeIn linear 7s;
-    -o-animation: fadeIn linear 7s;
-    -ms-animation: fadeIn linear 7s;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
 }
 .ModernArtImages img{
     width: 300px;
@@ -609,21 +624,78 @@ input[type=text], select, textarea {
     padding:19px;
 }
 
+.ModernArtImages img:hover{
+    transform: scale(1.5);
+}
+
 .ModernArt{
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
     color: black;
-    animation: fadeIn linear 7s;
-    -webkit-animation: fadeIn linear 7s;
-    -moz-animation: fadeIn linear 7s;
-    -o-animation: fadeIn linear 7s;
-    -ms-animation: fadeIn linear 7s;
+    color: black;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
     margin-left: 50px;
     margin-right: 50px;
 }
 
+.ExhibitE{
+    text-align: center;
+    font-family: 'Martel', serif;
+    font-size: 20px;
+    color: black;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  
 
+}
+.sculptureArtImages{ 
+    margin: 50px auto;
+    text-align: center;
+    margin-bottom: 60px;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+}
+.sculptureArtImages img{
+    width: 300px;
+    height: 250px;
+    padding:19px;
+}
+
+.sculptureArtImages img:hover{
+    transform: scale(1.5);
+}
+
+.sculptureArt{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+    color: black;
+    color: black;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*Exhibit E*/
 
 
 @keyframes fadeIn {
@@ -665,16 +737,5 @@ input[type=text], select, textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-.thanks {
-    display: block;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 55px;
-
-
 }
 
