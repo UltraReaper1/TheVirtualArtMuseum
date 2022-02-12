@@ -314,7 +314,7 @@ body{
 }
   
 .contactBody{
-    background-image: url(images/try21.png);
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd103-miscthemet00173-image_3.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=e291a3b18936cf2b05f7cb7f0781b281);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
@@ -424,7 +424,8 @@ input[type=text], select, textarea {
 
 
 .virtualtourbody{
-    background-image: url(images/Artboard\ 1.png);
+   
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd21-rp-t-1952-377-jj_2.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=facdda1132763dcb43b7b3044c120dcd);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -467,6 +468,7 @@ input[type=text], select, textarea {
     width: 300px;
     height: 250px;
     padding:5px;
+    transition: transform .4s ease;
 }
 
 .vanGoghImages img:hover{
@@ -520,6 +522,7 @@ input[type=text], select, textarea {
     width: 300px;
     height: 250px;
     padding:19px;
+    transition: transform .4s ease;
 }
 
 .EuropeanArtImages img:hover{
@@ -575,6 +578,7 @@ input[type=text], select, textarea {
     width: 300px;
     height: 250px;
     padding:19px;
+    transition: transform .4s ease;
 }
 
 .FamousArtImages img:hover{
@@ -630,6 +634,7 @@ input[type=text], select, textarea {
     width: 300px;
     height: 250px;
     padding:19px;
+    transition: transform .4s ease;
 }
 
 .ModernArtImages img:hover{
@@ -683,6 +688,7 @@ input[type=text], select, textarea {
     width: 300px;
     height: 250px;
     padding:19px;
+    transition: transform .4s ease;
 }
 
 .sculptureArtImages img:hover{
