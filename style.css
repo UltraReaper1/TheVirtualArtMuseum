@@ -38,6 +38,10 @@ nav{
     font-weight: bold;
 }
 
+.navlinks a:hover{
+    color: white;
+}
+
 .navlinks a::after{
     content: '';
     position: absolute;
@@ -298,10 +302,10 @@ body{
     width: 50em;
     padding: 5em;
     animation: fadeIn linear 3s;
-  -webkit-animation: fadeIn linear 3s;
-  -moz-animation: fadeIn linear 3s;
-  -o-animation: fadeIn linear 3s;
-  -ms-animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
 }
 
 .slogan{
